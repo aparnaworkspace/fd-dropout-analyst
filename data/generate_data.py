@@ -44,6 +44,9 @@ df.loc[comparison_paralysis, "dropout_reason"] = "comparison_paralysis"
 df.loc[kyc_dropout, "dropout_reason"] = "kyc_dropout"  # highest priority
 
 df["churned"] = (df["dropout_reason"] != "retained").astype(int)
+# Add 5% noise to make model realistic
+noise_idx = df.sample(frac=0.05, random_state=7).index
+df.loc[noise_idx, "churned"] = 1 - df.loc[noise_idx, "churned"]
 
 df.to_csv("data/fd_users.csv", index=False)
 print(f"Dataset saved: {df.shape}")
