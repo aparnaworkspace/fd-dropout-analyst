@@ -1,33 +1,46 @@
-# Blostem — Platform Context
+# Blostem — Platform and Business Context
 
-Blostem is a fintech infrastructure company backed by Rainmatter (Zerodha),
-MobiKwik, and AC Ventures. It provides a unified banking SDK and API that enables
-fintechs and financial institutions across India to embed Fixed Deposits,
-Recurring Deposits, and other banking products directly into their apps.
+## Company Profile
+Blostem is a Startup India-registered fintech infrastructure company founded
+October 2021. Headquartered in Noida, Uttar Pradesh.
 
-## Core Value Proposition
-- Partners go from zero to live FD product in 7 days vs 9-12 months traditionally
-- Single API integration connects to 10+ banks and NBFCs
-- Handles KYC, compliance, and payout infrastructure
+Investors: Rainmatter (Zerodha's venture arm), MobiKwik, AC Ventures, GrowX,
+Blue Lotus Capital.
 
-## Platform Partners
-Blostem powers FD products for 30+ platforms including MobiKwik, Upstox,
-Jupiter, and Zerodha ecosystem products.
+## Core Infrastructure
+Blostem provides a unified banking SDK and API that enables fintech platforms
+and financial institutions to embed Fixed Deposits, Recurring Deposits, and
+other banking products without building backend infrastructure from scratch.
 
-## Key Business Problem
-Once a partner platform goes live, user activation stalls. Users visit the FD
-section, compare products, but do not complete bookings. This activation gap
-represents significant revenue loss — both for Blostem and its partner platforms.
+Key capability: partner goes from zero to live FD product in 7 days vs
+9-12 months per bank integration traditionally.
 
-## What Blostem Needs
-Intelligence on which users are at risk of dropping off, why they are dropping
-off at a behavioral level, and what intervention each cohort needs to be
-reactivated — delivered in a format a product manager can act on immediately.
+Current scale:
+- 30+ platform partners (including MobiKwik, Upstox, Jupiter, Zerodha ecosystem)
+- 10+ bank and NBFC integrations
+- Processes FD bookings across multiple SFBs simultaneously
 
-## Intervention Capabilities
-Blostem's partner platforms can trigger:
-- Push notifications
-- WhatsApp messages (via approved templates)
-- In-app banners
-- Email sequences
-- Rate lock offers (locking a rate for 48 hours)
+## The Activation Gap — Core Business Problem
+Blostem's documented business problem: once a partner platform goes live,
+user activation stalls. Users visit the FD section, browse rates, initiate KYC,
+and drop off before completing a booking.
+
+This activation gap has two dimensions:
+1. Partner activation: fintech platform goes live but doesn't promote the FD
+   product internally — sales cycle closes but product usage doesn't follow
+2. End-user activation: users on partner platforms start FD journeys but
+   don't complete them — the problem this tool addresses
+
+Revenue impact: each incomplete FD booking represents lost transaction fee
+(typically 0.1-0.3% of FD value) plus lost lifetime value of an activated
+FD user (average 2.3 FDs per activated user per year).
+
+On a Rs 50,000 average ticket with 0.2% transaction fee:
+Each recovered dropout = Rs 100 direct revenue + Rs 230 annualised LTV
+
+## What Blostem's Product Team Needs
+Intelligence delivered in a format a product manager can act on Monday morning:
+- Which users are at dropout risk right now
+- Why they are dropping off (behavioral root cause, not just a score)
+- What specific intervention to trigger (channel, timing, message)
+- Which cohort to prioritize given limited re-engagement budget
