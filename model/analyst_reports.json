@@ -1,0 +1,82 @@
+{
+  "KYC Dropout": {
+    "cohort_stats": {
+      "cohort_name": "KYC Dropout",
+      "user_count": 695,
+      "avg_churn_probability": 0.942,
+      "avg_age": 42.1,
+      "pct_tier2_city": 73.2,
+      "avg_days_since_login": 31.5,
+      "avg_banks_compared": 3.5,
+      "avg_sessions": 9.1,
+      "pct_dropped_kyc": 100.0,
+      "pct_first_time": 65.5,
+      "avg_support_queries": 3.51,
+      "pct_viewed_faq": 58.1,
+      "avg_amount_intended": 157964.0,
+      "top_city": "Coimbatore",
+      "avg_interest_rate_viewed": 8.08
+    },
+    "analyst_report": "## FINDING\nThe KYC Dropout cohort has a high churn probability of 0.942, indicating a significant risk of users dropping off before completing their Fixed Deposit booking, with 100% of users having dropped off during the KYC process. The average user in this cohort is 42.1 years old, from a tier 2 city, and has been inactive for 31.5 days, suggesting a need for targeted intervention to re-engage them.\n\n## ROOT CAUSE\nThe root cause of the KYC dropout is technical or process friction during document submission, which is exacerbated by the complexity of the KYC process and the requirement for multiple documents, including PAN Card, Aadhaar Card, and cancelled cheque or bank statement. This friction is further compounded by the fact that 65.5% of users in this cohort are first-time users, who may be unfamiliar with the KYC process and require additional guidance and support.\n\n## RECOMMENDED ACTION\nTo address the KYC dropout issue, I recommend triggering a WhatsApp message within 2 hours of KYC abandonment with a step-by-step guide for the specific step the user dropped at, and offering Video KYC callback scheduling to remove asynchronous friction. Additionally, an in-app banner can be displayed to guide users through the KYC process in 3 simple steps, and if a support query is raised, a human agent should be assigned within 24 hours to provide personalized assistance and resolve any issues promptly. By taking these steps, we can reduce friction, increase user engagement, and improve the overall conversion rate for Fixed Deposit bookings."
+  },
+  "Comparison Paralysis": {
+    "cohort_stats": {
+      "cohort_name": "Comparison Paralysis",
+      "user_count": 322,
+      "avg_churn_probability": 0.883,
+      "avg_age": 41.4,
+      "pct_tier2_city": 71.4,
+      "avg_days_since_login": 41.0,
+      "avg_banks_compared": 5.3,
+      "avg_sessions": 13.1,
+      "pct_dropped_kyc": 15.5,
+      "pct_first_time": 68.6,
+      "avg_support_queries": 2.3,
+      "pct_viewed_faq": 48.4,
+      "avg_amount_intended": 151460.0,
+      "top_city": "Coimbatore",
+      "avg_interest_rate_viewed": 8.04
+    },
+    "analyst_report": "1. FINDING\nThe Comparison Paralysis cohort has a high churn probability of 0.883, with users comparing an average of 5.3 banks and having an average of 13.1 sessions, indicating a high level of indecision and friction in the booking process. The average amount intended to be invested is 151460.0, which is a significant amount, but the users are getting stuck in the comparison and KYC process.\n\n2. ROOT CAUSE\nThe root cause of the high churn rate in this cohort is the combination of too many options causing paralysis during bank comparison and the friction in the KYC process, which is further exacerbated by the fact that 15.5% of users have dropped off during KYC. The average age of 41.4 and the fact that 68.6% are first-time investors also suggest that users may be overwhelmed by the complexity of the process and are seeking safety of capital over returns.\n\n3. RECOMMENDED ACTION\nTo address the high churn rate in the Comparison Paralysis cohort, we recommend simplifying the comparison tool to provide a more streamlined and personalized experience for users, and implementing a guided KYC process with clear instructions and minimal document uploads required. We also suggest providing educational content and support queries to address user concerns and reduce friction, and offering incentives such as higher interest rates or rewards for completing the booking process. Additionally, we can consider partnering with Small Finance Banks to offer higher interest rates and provide a more competitive offering to our users."
+  },
+  "Overwhelmed First-Timer": {
+    "cohort_stats": {
+      "cohort_name": "Overwhelmed First-Timer",
+      "user_count": 249,
+      "avg_churn_probability": 0.9,
+      "avg_age": 43.2,
+      "pct_tier2_city": 69.9,
+      "avg_days_since_login": 26.3,
+      "avg_banks_compared": 2.5,
+      "avg_sessions": 12.3,
+      "pct_dropped_kyc": 19.3,
+      "pct_first_time": 100.0,
+      "avg_support_queries": 2.16,
+      "pct_viewed_faq": 0.0,
+      "avg_amount_intended": 151506.0,
+      "top_city": "Surat",
+      "avg_interest_rate_viewed": 8.02
+    },
+    "analyst_report": "1. FINDING\nThe Overwhelmed First-Timer cohort has a high churn probability of 0.9, with 19.3% of users dropping off during the KYC process, which is a significant contributor to the overall drop-off rate. The cohort's behavior, such as comparing an average of 2.5 banks and having an average of 2.16 support queries, indicates that users are experiencing friction and uncertainty during the FD booking process.\n\n2. ROOT CAUSE\nThe high churn rate and drop-off during KYC can be attributed to the complexity and friction associated with the KYC process, which is exacerbated by the fact that 100% of the users in this cohort are first-time investors who are likely to be overwhelmed by the process. The lack of guidance and support during the KYC process, as evidenced by the 0% of users viewing the FAQ section, further contributes to the high drop-off rate.\n\n3. RECOMMENDED ACTION\nTo address the high churn rate and drop-off during KYC, it is recommended that we simplify the KYC process by providing clear and concise instructions, as well as offering real-time support to users. We should also consider implementing a simplified comparison tool to help users make informed decisions and reduce the friction associated with comparing multiple banks. Additionally, we can leverage peer recommendations and user testimonials to reassure first-time investors and reduce the perceived risk associated with investing in FDs."
+  },
+  "Silent Churner": {
+    "cohort_stats": {
+      "cohort_name": "Silent Churner",
+      "user_count": 75,
+      "avg_churn_probability": 0.864,
+      "avg_age": 41.3,
+      "pct_tier2_city": 69.3,
+      "avg_days_since_login": 50.1,
+      "avg_banks_compared": 3.1,
+      "avg_sessions": 6.7,
+      "pct_dropped_kyc": 22.7,
+      "pct_first_time": 58.7,
+      "avg_support_queries": 2.21,
+      "pct_viewed_faq": 62.7,
+      "avg_amount_intended": 159867.0,
+      "top_city": "Coimbatore",
+      "avg_interest_rate_viewed": 7.95
+    },
+    "analyst_report": "1. FINDING\nThe Silent Churner cohort has a high churn probability of 0.864, with 22.7% of users dropping off during the KYC process, indicating a significant friction point in the Fixed Deposit booking journey. The average age of 41.3 and 69.3% of users from tier 2 cities suggests that this cohort may require more tailored support and guidance to complete the booking process.\n\n2. ROOT CAUSE\nThe high churn rate can be attributed to the complexity and friction associated with the KYC process, which is a mandatory step for FD bookings in India, and the fact that 58.7% of users are first-time investors who may be overwhelmed by the process. The average of 3.1 banks compared and 6.7 sessions per user also suggests that users may be experiencing decision paralysis, further contributing to the high churn rate.\n\n3. RECOMMENDED ACTION\nTo mitigate the churn rate, we recommend streamlining the KYC process by providing clear and concise instructions, and offering support through multiple channels, such as live chat or phone support, to address user queries and concerns. Additionally, we suggest implementing a simplified comparison tool to help users make informed decisions and reduce decision paralysis. By addressing these pain points, we can improve the overall user experience and increase the conversion rate for the Silent Churner cohort."
+  }
+}

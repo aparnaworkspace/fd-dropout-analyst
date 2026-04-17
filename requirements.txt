@@ -7,3 +7,12 @@ streamlit
 matplotlib
 joblib
 plotly
+langchain
+langchain-community
+openai
+faiss-cpu
+sentence-transformers
+tiktoken
+groq
+langchain-text-splitters
+langchain-core
