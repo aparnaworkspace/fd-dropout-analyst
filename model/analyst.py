@@ -20,11 +20,14 @@ COHORT_STATS_PATH = "model/cohort_stats.json"
 REPORTS_OUTPUT_PATH = "model/analyst_reports.json"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 TOP_K_CHUNKS = 5
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "").strip()
+try:
+    import streamlit as st
+    GROQ_API_KEY = st.secrets.get("GROQ_API_KEY", "").strip()
+except Exception:
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY", "").strip()
 
 if not GROQ_API_KEY:
-    raise ValueError("GROQ_API_KEY is missing. Run: export GROQ_API_KEY=your_key")
-
+    raise ValueError("GROQ_API_KEY is missing.")
 
 # --- Prompt ---
 ANALYST_PROMPT = PromptTemplate(
