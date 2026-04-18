@@ -48,7 +48,7 @@ SHAP waterfall chart explaining which behavioral signals drove the score.
 
 ## Live App
 
-[[Insert Streamlit Cloud URL here after deployment](https://fd-dropout-analyst.streamlit.app)]
+https://fd-dropout-analyst.streamlit.app
 
 ## Project Structure
 fd-dropout-analyst/
